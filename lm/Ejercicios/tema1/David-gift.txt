@@ -1,0 +1,28 @@
+﻿¿Cómo se llama el creador del lenguaje GML? {
+~Alan Turing 
+=Charles F. Goldfarb
+~Steve Jobs
+}
+
+¿Qué lenguaje es la evolución de GML?{
+~XML
+~Html
+=SGML
+}
+
+¿Cuál de estos lenguajes de marcas es de procedimiento?{
+~Html
+=LaTex
+~RTF
+}
+
+¿Fue Charles Goldfarb el creador de la www? {
+=Sí, el creo la WWW
+~Charles no creó la WWw
+}
+
+RTF(Rich Text Format) fue creado por:{
+=Microsoft
+~Google
+~IBM
+}
