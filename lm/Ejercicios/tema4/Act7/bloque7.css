@@ -1,0 +1,19 @@
+.box {
+    text-align: center;
+    font-size: 5vw;
+    padding: 10vw;
+    border: solid;
+    background: repeating-radial-gradient(circle, blue 20%, green 40%);
+}
+
+body {
+    background-image: url(flores.jpg);
+}
+
+.box2 {
+    text-align: center;
+    font-size: 5vw;
+    padding: 10vw;
+    border: solid;
+    background: linear-gradient(blue, transparent, purple);
+}

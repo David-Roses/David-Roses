@@ -1,0 +1,49 @@
+/**
+div {
+    border: solid 2px green;
+    padding: 20px;
+    margin: 20px;
+} 
+*/
+table, td, th {
+    border: 1px solid green;
+}
+
+#table1 {
+    border-collapse: separate;
+}
+
+#table2 {
+    border-collapse: collapse;
+}
+
+#table3 {
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+div {
+    padding: 50px;
+    margin: 10px;
+    float: left;
+    border: 3px solid green;
+}
+
+.id1 {
+    border-radius: 30px;
+}
+
+.id2 {
+    border-radius: 50%;
+}
+
+.id3 {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+}
+
+.id4 {
+    border-radius: 10px;
+}
+

@@ -1,0 +1,62 @@
+/**EJERCICIO 1*/
+
+.box1,.box3 {
+  background: url(fondo.jpg); 
+  font-size: 50px;
+  padding: 30px;
+  margin-left: 40px;
+  width: 10em;
+  border: 40px; 
+  border: solid;
+  text-align: center;
+}
+
+.box2 {
+  font-size: 50px;
+  padding: 30px;
+  margin-left: 40px;
+  width: 10em;
+  border: 40px; 
+  border: solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/**EJERCICIO 2*/
+
+.box4 {
+  background: url(fondo2.jpg);
+  padding: 15px;
+}
+
+/**EJERCICIO 3*/
+div {
+  text-align: center;
+  float: left;
+  background-color: red;
+  background-image: url(playa.jpg);
+  background-size: cover;
+  padding: 10px;
+}
+
+.blended {
+  background-blend-mode: hard-light;
+}
+
+/**EJERCICIO 4*/
+
+.div {
+  background-image: url(playa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;  
+  font-family: Georgia, serif;
+  font-size: 7vw;
+  text-align: center;
+  border: solid;
+}
+
+.blender {
+  mix-blend-mode: difference;
+  color: blue;
+}
