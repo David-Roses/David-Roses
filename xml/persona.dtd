@@ -1,0 +1,8 @@
+<!ELEMENT persona (nombre,mayor_de_edad,ciudad,forma_pago)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT mayor_de_edad EMPTY>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT forma_pago EMPTY>
+<!--<!ATTLIST forma_pago tipo CDATA "cheque">-->
+<!ATTLIST persona numero CDATA #REQUIRED>
+<!ATTLIST forma_pago tipo (cheque|metalico) "metalico>"

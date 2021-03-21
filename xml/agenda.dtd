@@ -1,0 +1,6 @@
+<!ELEMENT ejemplo-agenda (agenda, persona, personaid, nombre, tlf)>
+<!ELEMENT agenda (persona)+>
+<!ELEMENT persona (nombre, tlf)>
+<!ATTLIST personaid ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tlf (#PCDATA)>
