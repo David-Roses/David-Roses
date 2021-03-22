@@ -18,5 +18,12 @@
             <description>Ejercicio 2</description>
             <comments>Muy bien estructurado</comments>
         </item>
+        <item>
+            <title>Tema 3 - Ejercicio de tablas</title>
+            <autor>David</autor>
+            <link>https://davidroses02.github.io/lm/Ejercicios/tema1/Ti%C3%B1osa-David_Rosas.pdf</link>
+            <description>Ejercicio de tablas </description>
+            <comments>Muy bien realizado</comments>
+        </item>
     </channel>
 </rss>
