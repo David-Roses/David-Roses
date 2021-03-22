@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etiqueta SYSTEM "etiqueta.dtd">
+<etiqueta>
+    <nombre>Pepe Garcia</nombre>
+    <calle>C/Ronda.3</calle>
+    <ciudad>Córdoba</ciudad>
+    <pais>España</pais>
+    <codigo>18465</codigo>
+</etiqueta>

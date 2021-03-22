@@ -1,0 +1,17 @@
+<paises>
+  <pais>
+    <nombre>Noruega</nombre>
+    <capital>Oslo</capital>
+    <rey>Harald V</rey>
+    <reina>Sonia</reina>
+  </pais>
+  <pais>
+    <nombre>Gran Bretaña</nombre>
+    <capital>Londres</capital>
+    <reina>Isabel II</reina>
+  </pais>
+  <pais>
+    <nombre>Francia</nombre>
+    <capital>París</capital>
+  </pais>
+</paises>
