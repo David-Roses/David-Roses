@@ -1,0 +1,10 @@
+<planeta>
+    <pais>
+        <nombre>Francia</nombre>
+        <contagios>40.000</contagios>
+    </pais>
+    <pais>
+        <nombre>Irlanda</nombre>
+        <contagios>20.000</contagios>
+    </pais> 
+</planeta>
