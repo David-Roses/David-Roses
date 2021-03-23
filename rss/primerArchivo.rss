@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>RSS de David</title>
+        <link>https://davidroses02.github.io/</link>
+        <description>Página web de David Rosas</description>
+        <item>
+            <title>Tema 1 - Ejercicio1</title>
+            <autor>David</autor>
+            <link>https://davidroses02.github.io/lm/Ejercicios/tema1/C%C3%B3digo-LaTex-David_Rosas.pdf</link>
+            <description>Ejercicio 1</description>
+            <comments>Mal hecho</comments>
+        </item>
+        <item>
+            <title>Tema 1 - Ejercicio2</title>
+            <autor>David</autor>
+            <link>https://davidroses02.github.io/lm/Ejercicios/tema1/Ti%C3%B1osa-David_Rosas.pdf</link>
+            <description>Ejercicio 2</description>
+            <comments>Muy bien estructurado</comments>
+        </item>
+    </channel>
+</rss>
