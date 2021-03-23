@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE persona SYSTEM "persona.dtd">
-<persona numero="0">
-    <nombre>David</nombre>
-    <mayor_de_edad />
-    <ciudad>Córdoba</ciudad>
-    <forma_pago tipo="metalico"/>
-</persona>

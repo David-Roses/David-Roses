@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<note
-xmlns:xs="https://www.w3.org/2001/XMLSchema"
-xs:nonameschemaLocation="lalala.xsd">
-    <to>David</to>
-    <heading>Importante</heading>
-    <body>Cuerpo del mensaje</body>
-</note>
