@@ -9,7 +9,7 @@
             <autor>David</autor>
             <link>https://davidroses02.github.io/lm/Ejercicios/tema1/C%C3%B3digo-LaTex-David_Rosas.pdf</link>
             <description>Ejercicio 1</description>
-            <comments>Mal hecho</comments>
+            <comments>Bien hecho</comments>
         </item>
         <item>
             <title>Tema 1 - Ejercicio2</title>
@@ -17,6 +17,20 @@
             <link>https://davidroses02.github.io/lm/Ejercicios/tema1/Ti%C3%B1osa-David_Rosas.pdf</link>
             <description>Ejercicio 2</description>
             <comments>Muy bien estructurado</comments>
+        </item>
+        <item>
+            <title>xQuery - Ejercicio 1</title>
+            <autor>David</autor>
+            <link></link>
+            <description>Ejercicio 1</description>
+            <comments>Muy bien hecho</comments>
+        </item>
+        <item>
+            <title>xQuery - Ejercicio 2</title>
+            <autor>David</autor>
+            <link></link>
+            <description>Ejercicio 2</description>
+            <comments>Muy bien hecho</comments>
         </item>
     </channel>
 </rss>
