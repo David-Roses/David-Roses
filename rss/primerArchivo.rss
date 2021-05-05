@@ -32,5 +32,12 @@
             <description>Ejercicio 2</description>
             <comments>Muy bien hecho</comments>
         </item>
+        <item>
+            <title>Gestión Empresarial</title>
+            <autor>David</autor>
+            <link>https://drive.google.com/file/d/1JqfIDVvq19-8jeG5fgWGqfT9V8HkDNha/view?usp=sharing</link>
+            <description>Video</description>
+            <comments>Video explicativo sobre la teoría</comments>
+        </item>
     </channel>
 </rss>
