@@ -9,7 +9,11 @@ main {
   main {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 647px;
   }
 }
 
@@ -18,21 +22,22 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 100%;
+    height: 760px;
   }
 }
 
 .img-Index {
   width: 100%;
-  height: 330px;
-  background-color: #5a4b72;
+  height: 420px;
   text-align: center;
   vertical-align: middle;
 }
 
 @media screen and (min-width: 560px) {
   .img-Index {
-    height: 100%;
-    width: 50%;
+    height: 60%;
+    width: 55%;
   }
 }
 
@@ -43,14 +48,35 @@ main {
   }
 }
 
+.img-Index img {
+  width: 100%;
+  height: 100%;
+}
+
 .contenido-Index {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   vertical-align: middle;
-  height: 320px;
+  height: 280px;
   width: 100%;
+}
+
+@media screen and (min-width: 560px) {
+  .contenido-Index {
+    height: 100%;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contenido-Index {
+    height: 100%;
+    width: 50%;
+  }
 }
 
 .contenido-Index > h2, .contenido-Index h3, .contenido-Index ul {
@@ -63,10 +89,22 @@ main {
   display: flex;
   flex-direction: row;
   list-style: none;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   padding: 0;
+}
+
+@media screen and (min-width: 560px) {
+  .contenido-Index ul {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contenido-Index ul {
+    justify-content: flex-start;
+  }
 }
 
 .contenido-Index ul li {
