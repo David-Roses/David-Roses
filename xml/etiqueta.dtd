@@ -1,6 +1,0 @@
- <!ELEMENT etiqueta (nombre, calle, ciudad, pais, codigo)>
-<!ELEMENT nombre (#PCDATA)>
-<!ELEMENT calle (#PCDATA)>
-<!ELEMENT ciudad (#PCDATA)>
-<!ELEMENT pais (#PCDATA)>
-<!ELEMENT codigo (#PCDATA)>
