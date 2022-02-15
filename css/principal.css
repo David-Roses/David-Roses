@@ -45,6 +45,7 @@ main {
   margin: 10px 10px 10px 17px;
 }
 
+/* PROYECTOS */
 .proyectos {
   display: flex;
   flex-direction: column;
@@ -100,4 +101,232 @@ main {
   border: 1px solid #9E9E9E;
   width: 84%;
   margin-left: 20px;
+}
+
+/* SOFTSKILLS */
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.softskills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.softskills h3 {
+  margin-left: 25px;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (min-width: 560px) {
+  .softskills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .softskills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.softskill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.softskill h4 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.softskill p {
+  margin-top: 10px;
+}
+
+.estudios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.estudios h3 {
+  margin-left: 25px;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.estudios .oficiales, .estudios .no_oficiales {
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.tecnicas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.tecnicas h3 {
+  margin-left: 25px;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.css {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.js {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.php {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.java {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.contenedor_html {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 2px;
+  background-color: #448AFF;
+}
+
+.contenedor_html > p {
+  color: white;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.contenedor_html > div {
+  width: 80%;
+  background-color: #303F9F;
+}
+
+.contenedor_css {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 2px;
+  background-color: #e672fd;
+}
+
+.contenedor_css > p {
+  color: white;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.contenedor_css > div {
+  width: 70%;
+  background-color: #992580;
+}
+
+.contenedor_js {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 2px;
+  background-color: #f0b660;
+}
+
+.contenedor_js > p {
+  color: white;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.contenedor_js > div {
+  width: 80%;
+  background-color: #c08f09;
+}
+
+.contenedor_php {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 2px;
+  background-color: #6ff084;
+}
+
+.contenedor_php > p {
+  color: white;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.contenedor_php > div {
+  width: 70%;
+  background-color: #238d15;
+}
+
+.contenedor_java {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 2px;
+  background-color: #f06f6f;
+}
+
+.contenedor_java > p {
+  color: white;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.contenedor_java > div {
+  width: 80%;
+  background-color: #ac1b1b;
 }
