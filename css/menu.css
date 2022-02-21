@@ -189,7 +189,7 @@ a:visited {
 
 .lineaMenu {
     border: 1px solid #9E9E9E;
-    width: 90%;
+    width: 80%;
 }
 
 .rrss ul {
@@ -205,7 +205,7 @@ a:visited {
 
 @media screen and (max-width: 420px) {
     .lineaMenu {
-        width: 60%;
+        width: 80%;
     }
 }
 
@@ -215,19 +215,13 @@ a:visited {
     display: none;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1024px) {
     .cabecera {
         display: none;
     }
 
     .cabecera-escritorio {
-        position: sticky;
-        top: 0;
-        z-index: 2;
         display: block;
-        height: auto;
-        width: -webkit-fill-available;
-        width: -moz-available;
     }
 
     .cabecera-escritorio img {
@@ -235,22 +229,21 @@ a:visited {
         height: 50px;
         background-color: #ffff;
         margin-top: 10px;
+        margin-bottom: 35px;
     }
 
     .menu-escritorio {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
         align-items: center;
-        width: -webkit-fill-available;
-        width: -moz-available;
-        height: 100px;
-        background-color: var(--dark-primary-color);
+        width: 100%;
+        height: 60px;
+        background-color: white;
     }
 
     .menu-escritorio a {
         padding: 5px;
-        color: var(--text-primary-color);
+        color: black;
     }
 
     .menu-escritorio a:hover {

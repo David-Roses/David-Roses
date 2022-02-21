@@ -7,6 +7,19 @@ main {
   justify-content: center;
 }
 
+main h3 {
+  margin-left: 25px;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+  .cabecera_escritorio {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+}
+
 .sobre_mi {
   display: flex;
   flex-direction: column;
@@ -29,6 +42,8 @@ main {
 .contenido_sobre img {
   width: 60%;
   height: 60%;
+  max-width: 368px;
+  max-height: 310px;
 }
 
 .parrafo_sobre p {
@@ -45,24 +60,26 @@ main {
   margin: 10px 10px 10px 17px;
 }
 
+@media screen and (min-width: 510px) {
+  .linea {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+}
+
 /* PROYECTOS */
 .proyectos {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.proyectos h3 {
-  margin-left: 25px;
-  font-family: 'Playfair Display', serif;
-  font-family: 'Quicksand', sans-serif;
+  align-items: center;
 }
 
 .proyectos .contenido_proyectos {
-  margin-left: 55px;
-  margin-right: 55px;
   border: 2px solid #757575;
   border-radius: 5px;
+  max-width: 315px;
+  align-items: center;
 }
 
 .proyectos .contenido_proyectos img {
@@ -110,27 +127,30 @@ main {
   justify-content: center;
 }
 
+.skills h3 {
+  margin-left: 25px;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
 .softskills {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.softskills h3 {
-  margin-left: 25px;
-  font-family: 'Playfair Display', serif;
-  font-family: 'Quicksand', sans-serif;
-}
-
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 510px) {
   .softskills {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (min-width: 1200px) {
+.softskills div {
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
   .softskills {
     display: flex;
     flex-direction: row;
