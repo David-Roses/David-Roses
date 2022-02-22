@@ -7,6 +7,9 @@
     font-family: 'Playfair Display', serif
     font-family: 'Quicksand', sans-serif
 
+    @media screen and (min-width:1024px)
+        margin-left: 50px
+
 @mixin font-h4
     font-family: 'Merriweather Sans', sans-serif
     font-family: 'Playfair Display', serif
@@ -38,21 +41,6 @@ main
     h3
         @include font-h3
 
-.cabecera_escritorio
-
-    @media screen and (min-width:1024px)
-        display: block
-        
-        .cabecera
-            display: none
-
-        
-
-
-
-        
-
-
 .sobre_mi
     @include estructura-column
 
@@ -67,7 +55,22 @@ main
         width: 60%
         height: 60%
         max-width: 368px 
-        max-height: 310px 
+        max-height: 368px 
+
+    @media screen and (min-width:1024px)
+        margin-top: 25px 
+        margin-left: 200px
+        margin-right: 200px
+        display: flex
+        flex-direction: row
+        justify-content: center
+
+        img
+            width: 368px
+            height: 368px
+            border-radius: 50%
+
+
 
 .parrafo_sobre
 
@@ -87,12 +90,23 @@ main
         margin-left: 18px 
         margin-right: 18px 
 
+    @media screen and (min-width:1024px)
+        margin-top: 35px 
+        margin-bottom: 35px 
+
 /* PROYECTOS */
 
 .proyectos
 
     @include estructura-column
     align-items: center
+
+    @media screen and (min-width:1024px)
+        display: grid
+        grid-template-columns: repeat( 3, 1fr )
+        justify-items: center
+        margin-top: 45px
+        margin-bottom: 45px
 
     .contenido_proyectos
 
@@ -127,6 +141,10 @@ main
 
 .proyecto
     margin-bottom: 25px
+
+    @media screen and (min-width:1024px)
+        margin: 0
+        max-width: 315px
     
 
 .linea_proyecto
@@ -153,9 +171,8 @@ main
         margin: 0
         
     @media screen and (min-width:1024px)
-        display: flex
-        flex-direction: row
-        justify-content: space-between
+        display: grid
+        grid-template-columns: repeat( 3, 1fr )
 
 
 .softskill
@@ -174,6 +191,10 @@ main
     
     p
         margin-top: 10px
+
+    @media screen and (min-width:1024px)
+        margin-top: 20px
+        margin-bottom: 20px
     
 .estudios
     @include estructura-column
@@ -184,10 +205,16 @@ main
     .oficiales, .no_oficiales
         margin-left: 55px
         margin-right: 55px
+
+.formacion
+    @media screen and (min-width:1024px)
+        display: flex
+        flex-direction: row
         
 .tecnicas
     @include estructura-column
     margin-bottom: 50px
+    width: 100%;
     h3
         @include font-h3
 

@@ -1,16 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Quicksand:wght@300&display=swap');
-:root {
-    --dark-primary-color: #388E3C;
-    --default-primary-color: #4CAF50;
-    --light-primary-color: #C8E6C9;
-    --text-primary-color: #FFFFFF;
-    --accent-color: #795548;
-    --primary-text-color: #212121;
-    --secondary-text-color: #757575;
-    --divider-color: #BDBDBD;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Philosopher:wght@700&display=swap');
 * {
     font-family: "Roboto", sans-serif;
     list-style: none;
@@ -207,6 +198,10 @@ a:visited {
     .lineaMenu {
         width: 80%;
     }
+    .cabecera-escritorio {
+        display: none;
+    }
+
 }
 
 /* Escritorio */
@@ -224,120 +219,39 @@ a:visited {
         display: block;
     }
 
-    .cabecera-escritorio img {
-        width: 50px;
-        height: 50px;
-        background-color: #ffff;
-        margin-top: 10px;
-        margin-bottom: 35px;
-    }
-
     .menu-escritorio {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .menu-escritorio ul {
+        padding: 0;
         align-items: center;
-        width: 100%;
-        height: 60px;
-        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 0px;
     }
 
-    .menu-escritorio a {
-        padding: 5px;
-        color: black;
+    .menu-escritorio ul li {
+        margin-right: 45px;
     }
 
+    .menu-escritorio h3 a{
+        font-family: 'Philosopher', sans-serif;
+        font-size: 30px;
+    }
+    
+    .menu-escritorio ul li a{
+        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Philosopher', sans-serif;
+    }
+    
     .menu-escritorio a:hover {
         cursor: pointer;
         border-bottom: 2px solid black;
     }
 
-    .menu-escritorio h3 {
-        margin-left: 50px;
-    }
-
-    .menu-escritorio ul {
-        display: flex;
-        flex-direction: row;
-        margin-right: 50px;
-    }
-
-
-    .mini-menu-extensible {
-        margin-right: 50px;
-    }
-
-    .mini-menu-extensible img {
-        background: none;
-        display: block;
-    }
-
-    .mini-menu-extensible img:hover {
-        transform: rotate(360deg);
-        transition-duration: 0.5s;
-        cursor: pointer;
-    }
-
-    #mini-menu-extensible-texto {
-        display: none;
-        z-index: 1002;
-        text-align: center;
-    }
-
-    .menuSalir.is_active {
-        transform: translate3d(0px, 0px, 0px);
-    }
-
-    .menuSalir {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 5vw;
-
-        background-color: var(--card-secondary-color);
-        bottom: 0;
-        height: 100%;
-        right: 0;
-        *overflow-y: scroll;
-        position: fixed;
-        top: 0;
-        transform: translate3d(100%, 0px, 0px);
-        transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
-        *width: 25%;
-        z-index: 1001;
-
-        list-style: none;
-        text-align: start;
-        font-family: Verdadna, Arial, Helvetica;
-        color: #333333;
-        font-size: 1.5rem;
-        line-height: 3em;
-        color: #369;
-        text-transform: none;
-        font-weight: bold;
-        text-align: start;
-    }
-
-    .menuSalir a {
-        text-decoration: none;
-        color: white;
-    }
-
-
-    .hamburger {
-        display: none;
-    }
-
-    .menuppal {
-        display: none;
-    }
-
-    .menuppal.is_active {
-        transform: translate3d(0px, 0px, 0px);
-    }
-
-    .menuppal ul li {
-        font-size: 1.2rem;
-        line-height: 2.5em;
-        height: 2.5em;
-    }
 }
