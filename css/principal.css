@@ -197,10 +197,6 @@ main h3 {
   }
 }
 
-.softskills div {
-  margin: 0;
-}
-
 @media screen and (min-width: 1024px) {
   .softskills {
     display: grid;
