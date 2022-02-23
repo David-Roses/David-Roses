@@ -197,6 +197,10 @@ main h3 {
   }
 }
 
+.softskills div {
+  margin: 0;
+}
+
 @media screen and (min-width: 1024px) {
   .softskills {
     display: grid;
@@ -255,6 +259,17 @@ main h3 {
 .estudios .oficiales, .estudios .no_oficiales {
   margin-left: 55px;
   margin-right: 55px;
+}
+
+.oficiales > div, .no_oficiales > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.oficiales > div i, .no_oficiales > div i {
+  margin-right: 10px;
 }
 
 @media screen and (min-width: 1024px) {
