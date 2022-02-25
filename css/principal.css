@@ -5,6 +5,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 main h3 {

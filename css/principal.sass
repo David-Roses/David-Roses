@@ -37,9 +37,12 @@
 
 main
     @include estructura-column
-
+    overflow-y: scroll;
+    scroll-behavior: smooth;
     h3
         @include font-h3
+
+
 
 .sobre_mi
     @include estructura-column
@@ -225,6 +228,7 @@ main
     margin-right: 10px
 
 .formacion
+    
     @media screen and (min-width:1024px)
         display: flex
         flex-direction: row
