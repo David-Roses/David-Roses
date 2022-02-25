@@ -91,8 +91,10 @@ main
         margin-right: 18px 
 
     @media screen and (min-width:1024px)
+        width: 95%
         margin-top: 35px 
         margin-bottom: 35px 
+        margin-left: 27px
 
 /* PROYECTOS */
 
@@ -166,9 +168,6 @@ main
     @media screen and (min-width:510px)
         display: grid
         grid-template-columns: repeat( 2, 1fr )  
-
-    div
-        margin: 0
         
     @media screen and (min-width:1024px)
         display: grid
@@ -205,6 +204,16 @@ main
     .oficiales, .no_oficiales
         margin-left: 55px
         margin-right: 55px
+
+.no_oficiales > h4
+    color: #283fc2
+    text-decoration: underline
+
+.certificados > div
+    display: flex
+    flex-direction: row
+    justify-content: left
+    align-items: center
     
 .oficiales > div, .no_oficiales > div
     display: flex
@@ -242,6 +251,17 @@ main
     margin-left: 55px
     margin-right: 55px
 
+.tecno
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+    align-items: center
+
+    img
+        width: 35px
+        height: 35px
+        margin-left: 15px
+
 .php
     @include estructura-column
     margin-left: 55px
@@ -255,35 +275,35 @@ main
 .contenedor_html
     @include estructura-skills
     
-    background-color: #448AFF
+    background-color: #e7876a
 
     > div
         width: 80%
-        background-color: #303F9F
+        background-color: #eb540e
 
 .contenedor_css
     @include estructura-skills
-    background-color: #e672fd
+    background-color: #8ebff7
 
     > div
         width: 70%
-        background-color: #992580
+        background-color: #283fc2
 
 .contenedor_js
     @include estructura-skills
-    background-color: #f0b660
+    background-color: #f1e07e
 
     > div
         width: 80%
-        background-color: #c08f09
+        background-color: #dfdb0c
 
 .contenedor_php
     @include estructura-skills
-    background-color: #6ff084
+    background-color: #7e93af
 
     > div
         width: 70%
-        background-color: #238d15
+        background-color: #2f5999
 
 .contenedor_java
     @include estructura-skills

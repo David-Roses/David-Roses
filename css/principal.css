@@ -90,8 +90,10 @@ main h3 {
 
 @media screen and (min-width: 1024px) {
   .linea {
+    width: 95%;
     margin-top: 35px;
     margin-bottom: 35px;
+    margin-left: 27px;
   }
 }
 
@@ -197,10 +199,6 @@ main h3 {
   }
 }
 
-.softskills div {
-  margin: 0;
-}
-
 @media screen and (min-width: 1024px) {
   .softskills {
     display: grid;
@@ -259,6 +257,18 @@ main h3 {
 .estudios .oficiales, .estudios .no_oficiales {
   margin-left: 55px;
   margin-right: 55px;
+}
+
+.no_oficiales > h4 {
+  color: #283fc2;
+  text-decoration: underline;
+}
+
+.certificados > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
 }
 
 .oficiales > div, .no_oficiales > div {
@@ -323,6 +333,19 @@ main h3 {
   margin-right: 55px;
 }
 
+.tecno {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tecno img {
+  width: 35px;
+  height: 35px;
+  margin-left: 15px;
+}
+
 .php {
   display: flex;
   flex-direction: column;
@@ -345,7 +368,7 @@ main h3 {
   flex-direction: row;
   justify-content: space-between;
   border-radius: 2px;
-  background-color: #448AFF;
+  background-color: #e7876a;
 }
 
 .contenedor_html > p {
@@ -356,7 +379,7 @@ main h3 {
 
 .contenedor_html > div {
   width: 80%;
-  background-color: #303F9F;
+  background-color: #eb540e;
 }
 
 .contenedor_css {
@@ -365,7 +388,7 @@ main h3 {
   flex-direction: row;
   justify-content: space-between;
   border-radius: 2px;
-  background-color: #e672fd;
+  background-color: #8ebff7;
 }
 
 .contenedor_css > p {
@@ -376,7 +399,7 @@ main h3 {
 
 .contenedor_css > div {
   width: 70%;
-  background-color: #992580;
+  background-color: #283fc2;
 }
 
 .contenedor_js {
@@ -385,7 +408,7 @@ main h3 {
   flex-direction: row;
   justify-content: space-between;
   border-radius: 2px;
-  background-color: #f0b660;
+  background-color: #f1e07e;
 }
 
 .contenedor_js > p {
@@ -396,7 +419,7 @@ main h3 {
 
 .contenedor_js > div {
   width: 80%;
-  background-color: #c08f09;
+  background-color: #dfdb0c;
 }
 
 .contenedor_php {
@@ -405,7 +428,7 @@ main h3 {
   flex-direction: row;
   justify-content: space-between;
   border-radius: 2px;
-  background-color: #6ff084;
+  background-color: #7e93af;
 }
 
 .contenedor_php > p {
@@ -416,7 +439,7 @@ main h3 {
 
 .contenedor_php > div {
   width: 70%;
-  background-color: #238d15;
+  background-color: #2f5999;
 }
 
 .contenedor_java {
